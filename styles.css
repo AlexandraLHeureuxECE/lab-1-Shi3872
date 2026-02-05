@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f4fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #5a5a7a;
+}
+
+.status {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
+    gap: 8px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cell {
+    background: #e6dff5;
+    border-radius: 12px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a4a6a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+
+.cell:hover {
+    background: #d8cff0;
+}
+
+.cell:focus {
+    box-shadow: 0 0 0 3px #b8a9e6;
+}
+
+.restart-btn {
+    margin-top: 15px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background: #cde7e2;
+    color: #2f5d5b;
+    cursor: pointer;
+}
+
+.restart-btn:hover {
+    background: #b7dbd4;
+}
+
+.instructions {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #666;
+}
