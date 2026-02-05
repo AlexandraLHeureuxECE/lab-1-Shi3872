@@ -26,6 +26,10 @@ function createBoard() {
     cell.addEventListener("keydown", handleKeyboardMove);
 
     boardElement.appendChild(cell);
+
+    // After creating all cells:
+    const firstCell = boardElement.querySelector(".cell");
+    if (firstCell) firstCell.focus();
   });
 }
 
