@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f7f4fb;
+    background: #f7f4fb; /* very light purple tint */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,13 +13,13 @@ body {
 }
 
 h1 {
-    color: #5a5a7a;
+    color: #5a4f7a; /* muted purple */
 }
 
 .status {
     margin: 15px 0;
     font-size: 1.2rem;
-    color: #444;
+    color: #5e5675; /* soft purple-gray */
 }
 
 .board {
@@ -32,11 +32,11 @@ h1 {
 }
 
 .cell {
-    background: #e6dff5;
+    background: #e6dff5; /* pastel purple base */
     border-radius: 12px;
     font-size: 2rem;
     font-weight: bold;
-    color: #4a4a6a;
+    color: #4a406a; /* deeper purple for contrast */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,11 +46,11 @@ h1 {
 }
 
 .cell:hover {
-    background: #d8cff0;
+    background: #d8cff0; /* same purple, darker shade */
 }
 
 .cell:focus {
-    box-shadow: 0 0 0 3px #b8a9e6;
+    box-shadow: 0 0 0 3px #b8a9e6; /* stronger purple focus ring */
 }
 
 .restart-btn {
@@ -59,17 +59,17 @@ h1 {
     font-size: 1rem;
     border: none;
     border-radius: 10px;
-    background: #cde7e2;
-    color: #2f5d5b;
+    background: #d2c8ee; /* pastel purple button */
+    color: #3f355f;      /* deep purple text */
     cursor: pointer;
 }
 
 .restart-btn:hover {
-    background: #b7dbd4;
+    background: #c1b4e8; /* darker purple hover */
 }
 
 .instructions {
     margin-top: 15px;
     font-size: 0.9rem;
-    color: #666;
+    color: #6a5f88; /* soft purple for secondary text */
 }
